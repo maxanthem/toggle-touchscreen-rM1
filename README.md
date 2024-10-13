@@ -3,6 +3,8 @@ _How to associate left+right keys to toggle the capacitive touchscreen of the re
 
 The pen (EMR technology) can still be used. As a left-handed person, my left palm always tend to close the current note. Even as a right-handed person, the capacitive display can interact with the palm in a non-desired way while writing/sketching with the pen.
 
+![Illustration](illustration.png)
+
 This tutorial is intended for people with beginner-medium knowledge of Linux and terminals.
 
 ## Disclaimer
