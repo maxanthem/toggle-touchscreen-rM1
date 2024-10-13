@@ -1,0 +1,11 @@
+[Unit]
+Description=Toggles Touchscreen with LEFT+RIGHT buttons. Script for reMarkable
+After=home.mount
+
+[Service]
+ExecStart=/home/root/toggle-touchscreen.sh
+Restart=always          # This will restart the script on exit
+User=root
+
+[Install]
+WantedBy=multi-user.target
