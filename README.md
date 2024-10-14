@@ -110,7 +110,7 @@ From the previous output for instance, the mapping is the following:
 | Device            | Name                | Description                |
 | ----------------- | ------------------- | -------------------------- |
 | /dev/input/event0 | Wacom I2C Digitizer | The EMR device for the pen |
-| /dev/input/event1 | gpio-keys           | The capacitive touchscreen |
-| /dev/input/event2 | cyttsp5_mt          | The hardware buttons       |
+| /dev/input/event1 | gpio-keys           | The hardware buttons       |
+| /dev/input/event2 | cyttsp5_mt          | The capacitive touchscreen |
 
 - In `scripts/toggle-touchscreen.sh`, make sure that the instructions `DEVICE_BUTTONS=...` and `DEVICE_TO_KILL=...` are matching respectively the input devices of **gpio-keys** (buttons) and **cyttsp5_mt** (capacitive touchscreen)
